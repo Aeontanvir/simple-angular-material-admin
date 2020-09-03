@@ -66,6 +66,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+            "port": 9000,
             "browserTarget": "simple-angular-material-admin:build"
           },
           "configurations": {
@@ -123,6 +124,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "simple-angular-material-admin"
 }
