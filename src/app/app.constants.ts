@@ -1,7 +1,7 @@
 export const DEBUG_INFO_ENABLED: boolean = true;
 
 export const APP_URL = `//${window.location.hostname}/`;
-export const SERVER_API_URL = `//${window.location.hostname}:${getBackendPort(window.location.port)}/api/`;
+export const BACKEND_API_URL = `//${window.location.hostname}:${getBackendPort(window.location.port)}/api/`;
 function getBackendPort(port = '') {
   const portLocal = 9395;
   const portMap = {
